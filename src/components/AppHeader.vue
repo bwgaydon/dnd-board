@@ -1,7 +1,7 @@
 <template>
   <header class="app-header">
     <img class="header-logo-img" src="../assets/logo.png" />
-    <h1 class="header-title">{{headerTitle}}</h1>
+    <h1 class="header-title">It's Time For Some Muthafuckin' D&D</h1>
   </header>
 </template>
 
@@ -18,6 +18,7 @@
   align-items:center;
   background-color:#087762;
   padding:16px;
+  z-index:2;
 
   .header-logo-img {
     height:100%;

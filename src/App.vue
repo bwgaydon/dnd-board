@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <AppHeader headerTitle="It's Time For Some Muthafuckin D&D"/>
+    <AppHeader/>
     <AppSidebar/>
+    <GameBoard/>
   </div>
 </template>
 
@@ -10,6 +11,10 @@
 <style lang="scss">
 body {
   margin:0;
+  * {
+    box-sizing:border-box;
+  }
+
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -22,5 +27,6 @@ body {
     grid-template-columns: 360px auto;
     grid-template-rows: 100px auto;
   }
+  
 }
 </style>
