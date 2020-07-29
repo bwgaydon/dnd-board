@@ -1,11 +1,18 @@
 <template>
   <header class="app-header">
     <img class="header-logo-img" src="../assets/logo.png" />
-    <h1 class="header-title">It's Time For Some Muthafuckin' D&D</h1>
+    <h1 class="header-title">{{headerTitle}}</h1>
   </header>
 </template>
 
-<script lang="js" src="./app_header.js"></script>
+<script>
+export default {
+  name: 'AppHeader',
+  props: {
+    headerTitle: String
+  }
+}
+</script>
 
 <style scoped lang="scss">
 .app-header {
@@ -18,7 +25,6 @@
   align-items:center;
   background-color:#087762;
   padding:16px;
-  z-index:2;
 
   .header-logo-img {
     height:100%;
