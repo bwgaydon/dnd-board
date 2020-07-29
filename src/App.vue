@@ -1,19 +1,26 @@
 <template>
   <div id="app">
-    <AppHeader headerTitle="It's Time For Some Muthafuckin D&D"/>
+    <AppHeader/>
     <AppSidebar/>
+    <GameBoard/>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppSidebar from './components/AppSidebar.vue'
+import GameBoard from './components/GameBoard.vue'
 
 export default {
   name: 'App',
+  data () {
+    return {
+    }
+  },
   components: {
     AppHeader,
-    AppSidebar
+    AppSidebar,
+    GameBoard
   }
 }
 </script>
@@ -21,6 +28,9 @@ export default {
 <style lang="scss">
 body {
   margin:0;
+  * {
+    box-sizing:border-box;
+  }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

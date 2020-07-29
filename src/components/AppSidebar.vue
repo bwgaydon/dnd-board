@@ -13,8 +13,9 @@
 .app-sidebar {
   grid-column:1;
   grid-row:2 / 3;
-  background-color:#F0F0F0;
+  background-color:#D0D0D0;
   padding:16px;
+  z-index:1;
 
   .header-logo-img {
     height:100%;
