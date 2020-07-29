@@ -31,6 +31,7 @@ body {
   * {
     box-sizing:border-box;
   }
+
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -43,5 +44,6 @@ body {
     grid-template-columns: 360px auto;
     grid-template-rows: 100px auto;
   }
+  
 }
 </style>
