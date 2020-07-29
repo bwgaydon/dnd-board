@@ -5,18 +5,7 @@
   </div>
 </template>
 
-<script>
-import AppHeader from './components/AppHeader.vue'
-import AppSidebar from './components/AppSidebar.vue'
-
-export default {
-  name: 'App',
-  components: {
-    AppHeader,
-    AppSidebar
-  }
-}
-</script>
+<script lang="js" src="./app.js"></script>
 
 <style lang="scss">
 body {

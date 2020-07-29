@@ -3,11 +3,7 @@
   </div>
 </template>
 
-<script>
-  export default {
-    name: 'AppSidebar'
-  }
-</script>
+<script lang="js" src="./app_sidebar.js"></script>
 
 <style scoped lang="scss">
 .app-sidebar {

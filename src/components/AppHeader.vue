@@ -5,14 +5,7 @@
   </header>
 </template>
 
-<script>
-  export default {
-    name: 'AppHeader',
-    props: {
-      headerTitle: String
-    }
-  }
-</script>
+<script lang="js" src="./app_header.js"></script>
 
 <style scoped lang="scss">
 .app-header {
