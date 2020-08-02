@@ -9,11 +9,16 @@
 
   export default {
     name: 'GameBoard',
+    methods: {
+      handleScroll: function (event) {
+        console.log(event)
+      }
+    },
     data () {
       return {
         boardDimensions: {
-          x: 4,
-          y: 4
+          x: 3,
+          y: 3
         },
         boardSquares: [
           {
@@ -47,6 +52,10 @@
           {
             id: 8,
             bgColor: 'red'
+          },
+          {
+            id: 9,
+            bgColor: 'blue'
           }
         ]
       }
@@ -62,12 +71,12 @@
 	//position:fixed;
 	//width:100vw;
 	//height:100vh;
-	background:aliceblue;
   z-index:0;
   display:grid;
+  background-color:#faf9f0;
 
-  --rowCount: 4;
-  --colCount: 4;
+  --rowCount: 3;
+  --colCount: 3;
   grid-template-rows: repeat(var(--rowCount), 40px);
   grid-template-columns: repeat(var(--colCount), 40px);
 }
