@@ -27,6 +27,7 @@ export default {
     height:40px;
     width:auto;
     margin:0 24px 24px 24px;
+    padding:8px 16px;
     color:#ffffff;
     background-color:#087762;
     border:none;
