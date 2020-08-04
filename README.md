@@ -1,4 +1,4 @@
-# rpg-board
+# dnd-board
 
 ## Project setup
 ```
